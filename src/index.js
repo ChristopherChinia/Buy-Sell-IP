@@ -79,3 +79,41 @@ document.addEventListener("DOMContentLoaded", () => {
   fetchItems();
   
 });
+
+// Render items
+function renderItems(data) {
+    const div = document.getElementById("cart");
+    const container = document.createElement("div");
+    container.className = "create";
+    container.innerHTML = `
+    <img src="${data.image_Url}"/> 
+    
+    <div class="details">
+    <h2>${data.item}</h2>
+    <h4 class="description">${data.Description}</h4>
+    <h3 class="price"> Ksh${data.price}</h3>
+    <div class="like-section">
+    <span id="like-count" class="likes">0</span>likes
+    <button id="like-button" class="like-button">♥</button>
+    </div>
+  </div>
+    
+    <div class="buttons">
+    <button>Add to cart</button>
+    <button id = "add-button">Purchase item</button>
+    </div>
+    `;
+    div.appendChild(container);
+    container.querySelector('#add-button').addEventListener('click', ()=>{
+       
+      container.remove()
+      deleteItem(data.id)
+  })
+  
+  // like count
+  const likeCount = document.getElementById('like-count');  
+       const increament = document.getElementById('like-button');
+       increament.addEventListener('click', ()=>{
+            likeCount.innerHTML++;
+       });
+  }
