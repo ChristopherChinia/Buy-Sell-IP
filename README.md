@@ -15,13 +15,28 @@ Buysell website is a free platform for buyers to find customers and customers to
 
 ********
 ## SetUp Instruction
+Run this command to get the backend started:
+
+```sh
+json-server --watch db.json
+```
+
+**Make sure to run this command exactly as written**, otherwise your server will
+not return data in the correct format. Test your server by visiting this route
+in the browser:
+
+[http://localhost:3000/data/1](http://localhost:3000/data/1)
+
+Then, open the `index.html` file on your browser to run the application.
+
+
 ### Requirements
 * [HTML](lang Url)
 * Text editor eg [Visual Studio Code](https://code.visualstudio.com/download)
 
 
 ### Getting Files
-* Fork the repo :https://github.com/ChristopherChinia/Buy-Sell-IP.git
+* Fork the repo [LINK.](https://github.com/ChristopherChinia/Buy-Sell-IP.git)
 - Create a new branch in your terminal (git checkout -b improve-feature)
 - Install the prerequisites
 - Make appropriate changes in file(s)
@@ -32,10 +47,56 @@ Buysell website is a free platform for buyers to find customers and customers to
 * Open the folder location on terminal and use the following command to run app:
 
 ## How To Run It
-Use Live share extension to run the HTML File.
+Run this command to get the backend started:
+
+```sh
+json-server --watch db.json
+```
+Make sure to run this command exactly as written,
+otherwise your server will
+not return data in the correct format. Test your server by visiting this route
+in the browser:
+
+[http://localhost:3000/data/1](http://localhost:3000/data/1)
+
+Then, open the `index.html` file on your browser to run the application.
+
+As a user, You can:
+1. See the image received from the server, including its title,description, likes and
+   price when the page loads. You will need to make a GET request to the
+   following endpoint to retrieve the image data, along with its associated
+   description:
+
+      ```txt
+   GET /data
+
+   Example Response:
+    {
+      "item": "Kawasaki Ninja",
+      "image_Url": "https://imgcdn.zigwheels.ph/medium/gallery/exterior/74/1903/kawasaki-ninja-400-20537.jpg",
+      "Description": "20000 mileage in good condition for more info call 0700000000",
+      "price": "4500000",
+      "id": 1
+    },
+    {
+      "item": "Kawasaki Ninja",
+      "image_Url": "https://imgcdn.zigwheels.ph/medium/gallery/exterior/74/1903/kawasaki-ninja-400-20537.jpg",
+      "Description": "20000 mileage in good condition for more info call 0700000000",
+      "price": "4500000",
+      "id": 2
+    },
+    {
+      "item": "Play Station 5 pro",
+      "image_Url": "https://www.treline.co.ke/wp-content/uploads/2021/01/ishMfuW.jpg",
+      "Description": "3 months of usable still new with two gaming pads",
+      "price": "95000",
+      "id": 3
+    }
+
+   ```
 *****
 ## Live Link
-Or you can access the web application directly via this [LINK.]([link.com/]
+Or you can access the web application directly via this [LINK.](https://christopherchinia.github.io/Buy-Sell-IP/) 
 *****
 
 ## Technologies Used
