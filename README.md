@@ -6,7 +6,11 @@
 Buysell website is a free platform for buyers to find customers and customers to find products easily from the comfort of their livingrooms. This platforms enables customers to view the image, description and price of a product which they also have an option to purchase the product of their choice.
 
 ## SCREENSHOTS
+![Home page SCREENSHOTS](./Assets/images/Screenshot%20from%202022-06-25%2001-34-21.png)
 
+![products page SCREENSHOTS](./Assets/images/Screenshot%20from%202022-06-25%2001-34-47.png)
+
+![products page SCREENSHOTS](./Assets/images/Screenshot%20from%202022-06-25%2001-34-56.png)
 
 
 ********
