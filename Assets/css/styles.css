@@ -378,10 +378,11 @@ img {
 }
 
 .create {
-  border: 1px solid black;
-  box-shadow: 5px 5px 5px #000000;
+  border: 1px solid #007bff;
+  box-shadow: 5px 5px 5px #007bff;
   align-items: center;
   justify-content: space-around;
+  border-radius: 15px;
   display: flex;
   margin: 30px;
   padding: 20px;
