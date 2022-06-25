@@ -10,6 +10,7 @@
 html{
     scroll-behavior: smooth;
 }
+
 /* custom scroll bar */
 ::-webkit-scrollbar {
     width: 10px;
@@ -24,6 +25,7 @@ html{
 ::-webkit-scrollbar-thumb:hover {
     background: #555;
 }
+
 /* all similar content styling codes */
 section{
     padding: 100px 0;
@@ -74,6 +76,7 @@ section .title::after{
     background: #fff;
     transform: translateX(-50%);
 }
+
 /* navbar styling */
 .navbar{
     position: fixed;
@@ -122,6 +125,7 @@ section .title::after{
 .navbar.sticky .menu li a:hover{
     color: #fff;
 }
+
 /* menu btn styling */
 .menu-btn{
     color: #fff;
@@ -156,6 +160,7 @@ section .title::after{
 .scroll-up-btn:hover{
     filter: brightness(90%);
 }
+
 /* home section styling */
 .home{
     display: flex;
@@ -206,6 +211,7 @@ section .title::after{
     color: #007bff;
     background: none;
 }
+
 /* about section styling */
 .about .title::after{
     content: "What we do";
@@ -248,4 +254,50 @@ section .title::after{
 .about .about-content .right a:hover{
     color: #007bff;
     background: none;
+}
+
+/* services section styling */
+.services, .teams{
+    color:#fff;
+    background: #111;
+}
+.services .title::before,
+.teams .title::before{
+    background: #fff;
+}
+.services .title::after,
+.teams .title::after{
+    background: #111;
+    content: "what we offer";
+}
+.services .serv-content .card{
+    width: calc(33% - 20px);
+    background: #222;
+    text-align: center;
+    border-radius: 6px;
+    padding: 50px 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.services .serv-content .card:hover{
+    background: #007bff;
+}
+.services .serv-content .card .box{
+    transition: all 0.3s ease;
+}
+.services .serv-content .card:hover .box{
+    transform: scale(1.05);
+}
+.services .serv-content .card i{
+    font-size: 50px;
+    color: #007bff;
+    transition: color 0.3s ease;
+}
+.services .serv-content .card:hover i{
+    color: #fff;
+}
+.services .serv-content .card .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
 }
