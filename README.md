@@ -3,7 +3,7 @@
 ### Author : Christopher Chinia 25th June 2022
 ****
 ## Project Description
-
+Buysell website is a free platform for buyers to find customers and customers to find products easily from the comfort of their livingrooms. This platforms enables customers to view the image, description and price of a product which they also have an option to purchase the product of their choice.
 
 ## SCREENSHOTS
 
