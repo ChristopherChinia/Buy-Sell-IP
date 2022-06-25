@@ -124,3 +124,47 @@ function fetchItems() {
       .then((items) => items.forEach((item) => renderItems(item)));
       
   }
+  
+  // display in DOM
+const form=document.querySelector("#cards")
+form.addEventListener("submit", (event) => {
+  event.preventDefault()
+// grabbing elements from html
+  const itemTitle = document.querySelector("#name").value
+  const itemImage = document.querySelector("#image").value
+  const itemDescription = document.querySelector("#description").value
+  const itemPrice = document.querySelector("#price").value
+  if(itemTitle=="" && itemImage=="" && itemDescription=="" && itemPrice==""){
+    alert("All fields are required")
+}
+else{
+data.item=itemTitle
+data.image_Url=itemImage
+data.Description=itemDescription
+data.price=itemPrice
+
+fetch('http://localhost:3000/data',{
+  method :"POST",
+  headers:{
+      "content-Type":"application/json",
+      accept:"application/json"
+  },
+  body:JSON.stringify(data)
+})
+.then(res =>res.json())
+.then(data =>console.log(data))
+
+}
+window.location.reload();
+})
+// delete item function
+function deleteItem(id){
+    fetch(`http://localhost:3000/data/${id}`,{
+      method: "DELETE",
+      headers: {
+        "content-Type":"application/json"
+      }
+    })
+    .then(res =>res.json())
+    .then(deleteData =>console.log(deleteData))
+  }
