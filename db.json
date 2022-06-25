@@ -1,0 +1,46 @@
+{
+    "data": [
+      {
+        "item": "Kawasaki Ninja",
+        "image_Url": "https://imgcdn.zigwheels.ph/medium/gallery/exterior/74/1903/kawasaki-ninja-400-20537.jpg",
+        "Description": "20000 mileage in good condition for more info call 0700000000",
+        "price": "4500000",
+        "id": 1
+      },
+      {
+        "item": "Kawasaki Ninja",
+        "image_Url": "https://imgcdn.zigwheels.ph/medium/gallery/exterior/74/1903/kawasaki-ninja-400-20537.jpg",
+        "Description": "20000 mileage in good condition for more info call 0700000000",
+        "price": "4500000",
+        "id": 2
+      },
+      {
+        "item": "Play Station 5 pro",
+        "image_Url": "https://www.treline.co.ke/wp-content/uploads/2021/01/ishMfuW.jpg",
+        "Description": "3 months of usable still new with two gaming pads",
+        "price": "95000",
+        "id": 3
+      },
+      {
+        "item": "Lg home theatre",
+        "image_Url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQE8UhmpS_nYV_mAipx5Z_yjLw-J_uL7vgTCw&usqp=CAU",
+        "Description": "dolby atmos",
+        "price": "200000",
+        "id": 5
+      },
+      {
+        "item": "Hisense",
+        "image_Url": "https://kenyatronics.com/images/getImage/phpCtnHUh/500",
+        "Description": "55 inch screen 4k display",
+        "price": "175000",
+        "id": 6
+      },
+      {
+        "item": "Hisense",
+        "image_Url": "https://kenyatronics.com/images/getImage/phpCtnHUh/500",
+        "Description": "55 inch screen 4k display",
+        "price": "175000",
+        "id": 7
+      }
+    ]
+  }
