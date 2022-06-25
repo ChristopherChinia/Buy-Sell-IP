@@ -71,3 +71,11 @@ $(document).ready(function(){
         }
     });
 });
+
+// DOM manipulation
+const data={ }
+// initialization
+document.addEventListener("DOMContentLoaded", () => {
+  fetchItems();
+  
+});
