@@ -114,7 +114,7 @@ function renderItems(data) {
   const likeCount = document.getElementById('like-count');  
        const increament = document.getElementById('like-button');
        increament.addEventListener('click', ()=>{
-            likeCount.innerHTML++;
+           likeCount.innerHTML++;
        });
   }
   // fetch items
